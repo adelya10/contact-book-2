@@ -1,0 +1,53 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.first {
+  display: inline-flex;
+}
+button {
+  font-family: "Playfair Display SC", serif;
+}
+
+input {
+  font-family: "Playfair Display SC", serif;
+}
+
+.main-modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgb(199, 243, 204);
+  display: none;
+}
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  background-color: beige;
+}
+.close {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.container_2 {
+  justify-content: center;
+}
+img {
+  width: 10%;
+}
+
+.list {
+  margin-top: 10px;
+  margin: auto;
+  font-family: "Playfair Display SC", serif;
+}
